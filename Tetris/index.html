@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tetris</title>
+    <link href="styles.css" />
+  </head>
+
+  <body>
+    <main class="grid">
+        <section class="game-board">
+          <canvas id="board"></canvas>
+        </section>
+        <section class="game-controls">
+          <div>
+              <h1>Tetris</h1>
+              <p>Score: <span class="score">0</span></p>
+              <p>Lines: <span class="lines">0</span></p>
+              <p>Levels: <span class="levels">0</span></p>
+              <canvas id="next"></canvas>
+          </div>
+          <button onClick="play()" class="play-button">Play</button>
+        </section>
+      </main>
+
+      <script src="constants.js"></script>
+      <script src="main.js"></script>
+  </body>
+</html>
